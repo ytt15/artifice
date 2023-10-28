@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+    background-color: darkgray;
 }
 
 .logo{
@@ -24,4 +24,7 @@ body{
 /* Estilo para mostrar el icono al pasar el mouse */
 .miBoton:hover .btn-icon {
     display: inline;
+}
+.cuerpo{
+    
 }
