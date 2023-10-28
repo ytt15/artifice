@@ -1,13 +1,15 @@
-body{
+body {
     background-color: darkgray;
 }
 
-.logo{
+.logo {
     width: 30%;
 }
-.nav-item{
+
+.nav-item {
     padding: 1.5%;
 }
+
 .miBoton .btn-text {
     display: block;
 }
@@ -25,6 +27,27 @@ body{
 .miBoton:hover .btn-icon {
     display: inline;
 }
-.cuerpo{
-    
+
+.cuerpo {
+    width: 70%;
+    /* El div ocupa el 70% del ancho de la pantalla */
+    margin: 0 auto;
+    /* Lo centra horizontalmente */
+    background-color: #f0f0f0;
+    /* Color de fondo para mayor claridad */
+    padding: 20px;
+    /* Añade espacio interior para contenido */
+    text-align: center;
 }
+    ul {
+        /* Estilos generales para todas las listas no ordenadas */
+        list-style: none;
+        /* Eliminar los marcadores de lista predeterminados */
+        padding: 0;
+        margin: 0;
+    }
+
+    ul li {
+        display: inline;
+        margin-right: 10px;
+    }
